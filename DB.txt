@@ -15,11 +15,4 @@ INSERT INTO PERSONS(name, surname,age, phone_number, city_of_living)
 VALUES ('Дима','Овечкин',27,89444585904,'Moscow');
 
 
-SELECT name,surname
-FROM PERSONS
-WHERE city_of_living='Moscow';
 
-SELECT *
-FROM PERSONS
-WHERE age>27
-ORDER BY age DESC ;
